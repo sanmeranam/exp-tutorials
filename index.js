@@ -8,7 +8,7 @@ app.use(bodyParser.text())
 
 const mongoose = require('mongoose');
 async function main() {
-  await mongoose.connect('mongodb+srv://user:9hHCQkjHKrbiaNxX@cluster0.o1klx.mongodb.net/sample_restaurants?retryWrites=true&w=majority');
+  await mongoose.connect('db url');
 }
 
 main().catch(err => console.log(err));
